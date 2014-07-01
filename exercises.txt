@@ -1,0 +1,119 @@
+Exercises
+
+BASICS
+
+1. "Jason" + " Williams"
+
+2. thousands = 1000 / 1000
+   hundreds = 1000 / 100
+   tens = 1000 / 10
+   ones = 1000 / 1
+
+7. There is an unclosed curly bracket pair
+
+VARIABLES
+
+5. first one gives us 3. The second gives an error because x is 
+variable created within the scope of the "do block". 
+
+6. the error says that shoes is an undefined local variable
+
+METHODS
+
+2. 	1. 2
+	2. nil
+	3. "Joe"
+	4. "four"
+	5. nil
+
+4. prints nothing
+
+5. 1) def scream(words)
+	words = words + "!!!!"
+	puts words
+   end
+
+   scream("Yippeee")
+ 
+    2) returns nothing
+
+6. you are providing the wrong number of arguments to a method 
+called "calculate_product". 
+
+FLOW_CONTROL
+
+1. 	1. false
+	2. false
+	3. false
+	4. true
+	5. true
+
+4. 	1. "FALSE"
+	2. "Did you get it right?"
+	3. "Alright now!"
+
+6. There is no "end" in the if-else statement. 
+
+LOOPS_ITERATORS
+
+1. [1, 2, 3, 4, 5]
+
+ARRAYS
+
+2. 	1. returns 1
+	arr = [["b"], ["b", 2], ["b", 3], ["a", 1], ["a", 2], ["a", 3]]
+
+	2. returns [1, 2, 3]
+	arr = [["b"], ["a", [1, 2, 3]]]
+
+3. using arr.last.first
+
+4. 	1. 3
+	2. an error
+	3. 8
+
+5. a = "e", b = "T", c = "A"
+
+6. change to names[3] = 'jody'
+
+HASHES
+
+2. merge! is destructive and merge is not. 
+
+4. person[:name]
+
+5. value? 
+
+MORE_STUFF
+
+2. nothing is printed because .call isn't used. 
+
+3. exception handling is used for letting a program to 
+continue over a possible error. 
+
+5. there's no "&"
+
+INTRO_EXERCISES
+
+6. arr.uniq
+
+7. The difference is a hash contains a key and value
+
+8. 	h = {:pets => 'cat'}
+   	h = {pets: 'cat'}
+
+9. 	1. h[:b]
+	2. h[:e] = 5
+	3. h.delete_if do |k, v|
+	      v < 3.5
+	    end
+
+10. yes
+
+11. ruby-doc.org. Seems really easy to use.
+
+13. 	contacts["Joe Smith"][:email]
+	contacts["Sally Johnson"][:phone]
+
+
+17. "These hashes are the same!"
